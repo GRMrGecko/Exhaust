@@ -1,0 +1,18 @@
+/* Exhaust Strings. */
+
+/* Welcome Message */
+"Welcome to Exhaust" = "Welcome to Exhaust";
+"Exhaust can be complicated at times, please be sure you read the documentation even if your the type of person who thinks he/she doesn't need to read documentation. If you haven't read the documentation, please quit now and read it." = "Exhaust can be complicated at times, please be sure you read the documentation even if your the type of person who thinks he/she doesn't need to read documentation. If you haven't read the documentation, please quit now and read it.";
+"Continue" = "Continuar";
+
+/* Quit Message */
+"Are you sure you want to quit?" = "Deseja mesmo sair?";
+"When you quit, you will remove all items and place it back into Apple's login system. Are you sure you want to do that? If not just hit cancel and close the window instead." = "Ao sair, o Exhaust desactiva-se e todos os items de login voltam para o sistema por defeito. Tem a certeza que o deseja fazer? Se mudou de ideias, clique em Cancelar e feche apenas a janela.";
+"Quit" = "Sair";
+"Cancel" = "Cancelar";
+
+/* Donation Message */
+"Donations" = "Doações";
+"Thank you for using Exhast, if you like Exhaust, consider sending a donation." = "Obrigado por usar o Exhaust. Se gosta desta aplicação, por favor considere enviar-me uma doação.";
+"Yes" = "Sim";
+"No" = "Não";
