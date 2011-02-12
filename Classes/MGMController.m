@@ -321,8 +321,10 @@ OSStatus frontAppChanged(EventHandlerCallRef nextHandler, EventRef theEvent, voi
 #endif
 	}
 	
-	if (itemIndex>=[startItems count])
+	if (itemIndex>=[startItems count]) {
 		[self releaseStartItems];
+		[self performSelector:@selector(updateItems) withObject:nil afterDelay:300];
+	}
 }
 - (void)startItem:(NSTimer *)timer {
 	NSDictionary *info = [timer userInfo];
@@ -667,6 +669,7 @@ OSStatus frontAppChanged(EventHandlerCallRef nextHandler, EventRef theEvent, voi
 
 - (void)willLogout:(NSNotification *)theNotification {
 	if (mainWindow!=nil) [self releaseMainWindow];
+	[self releaseStartItems];
 	[self updateItems];
 }
 - (void)updaterWillRelaunchApplication {
